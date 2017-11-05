@@ -27,7 +27,7 @@ TARGET_BOOTLOADER_BOARD_NAME := pico
 BLOCK_BASED_OTA := false
 
 # Kernel
-BOARD_KERNEL_CMDLINE := no_console_suspend=1 console=null androidboot.hardware=pico androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := no_console_suspend=1 console=null androidboot.hardware=pico androidboot.selinux=permissive selinux=0
 BOARD_KERNEL_BASE := 0x12c00000
 BOARD_PAGE_SIZE := 0x00000800
 
